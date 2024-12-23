@@ -1,0 +1,25 @@
+/* CandidateResults.css */
+
+.results-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td.accepted {
+    background-color: #b3ffb3; /* Light green */
+  }
+  
+  td.rejected {
+    background-color: #ffb3b3; /* Light red */
+  }
+  

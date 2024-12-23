@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-end; /* Align tabs to the right */
+  margin-bottom: 20px;
+  background-color: #3498db; /* Blue background */
+  padding: 10px;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  color: #fff; /* White text color */
+}
+
+.tab.active {
+  background-color: #fff; /* White background for active tab */
+  color: #3498db; /* Blue text color for active tab */
+}
+
+.drop-area {
+  border: 2px dashed #3498db; /* Blue border for the drop area */
+  padding: 50px; /* Larger padding for a bigger drop area */
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.drop-area.drag-over {
+  background-color: #f0f8ff; /* LightBlue background when dragging over */
+}
+
+.upload-message {
+  color: green;
+  margin-top: 10px;
+}

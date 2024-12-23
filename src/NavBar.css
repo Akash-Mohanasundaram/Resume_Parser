@@ -1,0 +1,29 @@
+/* Add these styles to your CSS/SCSS file */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #3498db; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+  .title-tab {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tab {
+    margin-right: 10px; /* Adjust margin between tabs as needed */
+    color: #fff; /* Adjust text color as needed */
+    text-decoration: none;
+  }
+  
+  .tab:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
